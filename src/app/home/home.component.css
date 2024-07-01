@@ -1,0 +1,33 @@
+.category-container {
+    display: flex;
+    flex-wrap: wrap; /* Consente il wrapping delle immagini */
+    justify-content: center; /* Allineamento orizzontale al centro */
+    align-items: center; /* Allineamento verticale al centro */
+    max-width: 100%; /* Larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore */
+  }
+  
+  .category-container a {
+    flex-basis: 50%; /* Ogni immagine occupa il 50% della larghezza del contenitore */
+    max-width: 200px; /* Larghezza massima delle immagini */
+    margin-right: 120px; /* Spazio tra le immagini */
+    margin-bottom: 50px; /* Spazio tra le immagini */
+    margin-top: 50px; /* Spazio tra le immagini */
+    margin-left: 200px; /* Spazio tra le immagini */
+  }
+  
+  .category-container img {
+    width: 100%; /* Le immagini occupano l'intero spazio disponibile */
+    height: auto; /* Altezza automatica per mantenere l'aspetto proporzionato */
+    
+  }
+  
+  .login-title {
+    color: orange; /* Colore arancione */
+    font-size: 80px; /* Dimensione grande */
+    text-align: center; /* Centra il testo */
+    margin: 0 auto; /* Centra il titolo rispetto alla larghezza della pagina */
+    margin-bottom: 40px ;
+    margin-top: 40px;
+  }
+  

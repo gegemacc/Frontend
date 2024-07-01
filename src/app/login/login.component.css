@@ -1,0 +1,73 @@
+/* Stile generale della pagina di login */
+.login-container {
+  background-color: white; /* Sfondo verde prato */
+  width: 100%; /* Occupa tutta la larghezza della pagina */
+  height: 100vh; /* Occupa tutta l'altezza del viewport */
+ 
+}
+
+.login-container {
+  text-align: center;
+  
+}
+
+.login-title {
+  color: #ffa500; /* Colore arancione */
+  font-size: 70px; /* Dimensione grande */
+  margin-bottom: 150px;
+  
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: orange; /* Testo bianco */
+  font-size: 25px;
+}
+
+input {
+  width: 350px; /* Ingrandisci le caselle */
+  padding: 15px; /* Ingrandisci il padding */
+  border-radius: 5px;
+  border: 4px solid #ffa500;
+  font-size: 18px; /* Ingrandisci il testo */
+}
+
+button {
+  padding: 15px 30px; /* Ingrandisci il pulsante */
+  background-color: #218838; /* Verde più scuro */
+  color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* Ingrandisci il testo */
+  margin-bottom: 40px;
+}
+
+button:hover {
+  background-color: #1e7e34; /* Verde ancora più scuro */
+}
+
+.register-link {
+  margin-top: 80px;
+  color: orange; /* Colore arancione */
+  text-decoration: none;
+  font-size: 24px; /* Ingrandisci il testo */
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+
+
+  

@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #228B22; /* Verde tonalità prato */
+    padding: 0.5rem 1rem;
+    color: white;
+    box-sizing: border-box;
+    height: 70px;
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .navbar-left .brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: orange; /* Testo arancione */
+  }
+  
+  .navbar-center {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-center .search-bar {
+    width: 250%; /* Larghezza della barra di ricerca */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .navbar-right .dropdown {
+    position: relative;
+  }
+  
+  .navbar-right .dropbtn {
+    background-color: #228B22;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-right .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .navbar-right .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navbar-right .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .navbar-right .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar-right .dropdown:hover .dropbtn {
+    background-color: #555;
+  }
+  
+  
